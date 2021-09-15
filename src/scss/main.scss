@@ -12,8 +12,9 @@ body {
     position: fixed;
     top: 0;
     .navbar-brand {
-      font-family: "Nanum Pen Script", sans-serif;
-      font-size: 45px;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 100;
+      font-size: 32px;
       margin: 0px;
     }
     a {
@@ -25,7 +26,7 @@ body {
   main {
     height: 100%;
     width: 100%;
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/Frame1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,41 +55,93 @@ body {
         li {
           justify-self: center;
         }
+        .foot {
+          h2,
+          a {
+            font-size: 20px;
+          }
+          h3 {
+            font-size: 17px;
+          }
+        }
+        .hoverload {
+          font-size: 14px;
+        }
       }
 
       @include respond(phone) {
         grid-template-columns: 1fr;
+        font-size: 18px;
       }
       .locations {
-        background: rgba(255, 255, 255, 0.5);
+        position: relative;
+        background: rgb(255, 255, 255, 0.6);
         border: none;
         background-size: cover;
         background-position: center;
         width: 100%;
         height: 100%;
         margin-top: 32px;
-        border-radius: 24px;
+
         padding: 16px;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
-          rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
-          rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        color: white;
+        box-shadow: rgba(193, 193, 193, 0.6) 0px 1px 1px,
+          rgba(83, 83, 83, 0.3) 0px 2px 2px,
+          rgba(193, 193, 193, 0.6) 0px 4px 4px,
+          rgba(193, 193, 193, 0.6) 0px 4px 4px,
+          rgba(193, 193, 193, 0.6) 0px 4px 4px;
+        &:hover > .hoverload {
+          transition: 1s ease-in;
+          opacity: 1;
+          transform: translatey(-100%);
+          border-radius: 0 0 12px 12px;
+        }
+        .hoverload {
+          opacity: 0;
+          border-radius: inherit;
+          background-color: rgba(83, 83, 83, 0.9);
+          height: 50%;
+          padding: 18px;
+          font-family: inherit;
+          font-size: 16px;
+          z-index: 100;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          h2 {
+            text-transform: capitalize;
+          }
+        }
         .conta {
-          text-shadow: white 1px 1px;
           margin-top: 10px;
           height: 50%;
-        }
-        img {
-          width: 80px;
-          height: 80px;
-          object-fit: cover;
+          border-radius: 6px;
+          img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px 0 6px 0;
+          }
         }
         .foot {
-          color: black;
           font-size: 22px;
           height: 50%;
           position: relative;
 
+          h2 {
+            text-transform: capitalize;
+            color: #464646;
+            font-size: 22px;
+          }
+          h3 {
+            color: darkgray;
+            font-size: 18px;
+          }
+
+          a {
+            text-shadow: none;
+            font-size: 22px;
+          }
           a:hover {
             text-decoration: underline;
             color: rgb(255, 27, 38);
@@ -105,6 +158,10 @@ body {
             width: 100%;
             position: absolute;
             bottom: 18px;
+            color: #c1c1c1;
+          }
+          @include respond(phone) {
+            font-size: 18px;
           }
         }
       }
@@ -118,10 +175,12 @@ body {
     display: flex;
     position: fixed;
     bottom: 0;
+    z-index: 100;
+    color: #c1c1c1;
 
     div {
       width: 50%;
-      color: white;
+      color: #c1c1c1;
       @include center(grid);
       h4:hover {
         text-decoration: underline;
@@ -137,7 +196,6 @@ body {
     }
     .fab {
       font-size: 24px;
-      color: white;
     }
   }
 }

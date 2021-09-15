@@ -319,15 +319,15 @@
         "country": "Spain",
         "city": "Barcelona",
         "map": {
-          "address": "Travessera de Gràcia, 214, 08025 Barcelona, España",
+          "address": "Carrer de Mallorca, 103, Barcelona, Spain",
           "lat": "51.5255905",
           "lng": "-0.2549043999999867"
         },
-        "description": "CommsTogether, a coworking space at Gràcia (Barcelona · Catalonia · Spain).; )",
-        "logo": "https://coworkingmap.org/wp-content/uploads/2014/01/Logo-CommsTogether-200x205.png",
-        "cover": "https://coworkingmap.org/wp-content/uploads/2014/01/IMG_6417-2-705x264.png",
-        "name": "CommsTogether",
-        "site": "http://www.commstogether.cat/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+        "description": "Factory 103 is your creative space: coworking, meeting rooms and the place to organize all kinds of corporate events. Located in the heart of the Eixample, a unique lively coworking make your dreams come true.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/06/Untitled15-200x197.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/06/Untitled9-705x460.png",
+        "name": "Factory103",
+        "site": "http://www.factory103.es/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
     },
     {
         "ID": 23,
@@ -583,6 +583,322 @@
         "cover": "https://coworkingmap.org/wp-content/uploads/2015/06/coworking-paris1-705x263.png",
         "name": "NetCoworking Paris Trocadéro",
         "site": "http://www.netcoworking.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 40,
+        "country": "Malaysia",
+        "city": "Phuket",
+        "map": {
+          "address": "Phang-nga, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "The SEA Coworking Space in Phuket Old Town is located opposite the BABA Museum on Phang-Nga Road. The SEA offers complete office structure including superfast internet, electric plug, colour laser printer, fax, scanner, photocopier, locker, organic drip coffee conner, pantry room, meeting rooms with presentation equipments for up to 15 coworkers.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2015/02/thesea-200x200.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2015/02/2015-01-22-14-50-24_deco-705x529.jpg",
+        "name": "The SEA Coworking Space",
+        "site": "https://www.facebook.com/theseacoworkingspace?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 41,
+        "country": "Malaysia",
+        "city": "Phuket",
+        "map": {
+          "address": "74-75 MOO 5 WICHIT MUANGPHUKET PHUKET 83000, MUANGPHUKET, PHUKET, 83000, Thailand",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "BAYACO is a co-working space,where is an ECOSYSTEM service provider in Phuket, Located at Baan&Beyond(Homeworks) 1st Floor. BAYACO is suitable for the worker, startup, people who need the relax place and working on the peaceful atmosphere to create excellent works. We extremely provide the best service to our customer.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/09/Logobayaco-200x141.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/09/38171285_142132973364337_3780317638551404544_n-705x705.jpg",
+        "name": "BAYACO",
+        "site": "https://www.facebook.com/bayacophuket/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 42,
+        "country": "Malaysia",
+        "city": "Phuket",
+        "map": {
+          "address": "Mai Khao, Phuket",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "We believe the fusion of inspiring situations and environments with adventurous talents will create a catalyst for creativity, innovation, entrepreneurship and change – all this on a boat.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2016/04/Coboat_Circle-2-200x141.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2016/04/Coboat_ECI1-705x397.jpg",
+        "name": "Coboat",
+        "site": "http://www.coboat.org/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 43,
+        "country": "Malaysia",
+        "city": "George Town",
+        "map": {
+          "address": "Scoopoint Pengkalan Weld Georgetown George Town Penang Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Scoopoint is not just a co-working space but it is a disruptive passion driven, interactive, collaborative, inspiring community & platform that makes exploring and discovering passion or ideas more personally meaningful.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2017/10/scoopoint_final-01-200x128.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2017/10/18839781_1451137511610527_8166929958358773636_o-1-705x369.jpg",
+        "name": "Scoopoint",
+        "site": "http://www.scoopoint.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 44,
+        "country": "Malaysia",
+        "city": "George Town",
+        "map": {
+          "address": "Wisma Yeap Chor Ee Pengkalan Weld Georgetown George Town Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "The first co-working space in Penang located at the heart of Penang - George Town. Beautifully built in a heritage building, it brings you back to the golden age of Penang while you lost your thoughts in work.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2017/05/@CAT-logo.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2017/05/coworking-space_2-705x705.jpg",
+        "name": "@CAT Penang",
+        "site": "http://acatpenang.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 45,
+        "country": "Malaysia",
+        "city": "George Town",
+        "map": {
+          "address": "Menara Livingston, Jalan Argyll, 10050 George Town, Pulau Pinang, Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "We are a new co-working & shared services office (serviced private offices) based in Georgetown, Penang in Malaysia. Our 18,000 sqft space is housed in Livingston Tower, an upcoming Multimedia Super Corridor (MSC) building, that is also home to MORE by Arang Coffee, Urban H Hotel, an event hall, a small but adequate gym (exclusive for hotel guests and building tenants – that means us",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/03/logo_Settlements-FINAL-200x43.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/03/DSC03785c-705x376.jpg",
+        "name": "Settlements",
+        "site": "http://www.settlements.work/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 46,
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "map": {
+          "address": "Level 13A, Fahrenheit Office Tower, Jalan Gading, Bukit Bintang, 55100, Kuala Lumpur, Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "PAPER + TOAST is the first coworking space in Malaysia. Established in 2010, our aim is to serve as a one stop community platform for entrepreneurs and startups to get together, gaining critical business skills & knowledge and collaborate.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2017/05/1-PT-logo-Main-Medium-200x258.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-17-at-12.30.56-PM-705x435.png",
+        "name": "Paper + Toast",
+        "site": "http://paperandtoast.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 47,
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "map": {
+          "address": "Jalan Setia Utama AT U13/AT, Alam Nusantara, 40170 Shah Alam, Selangor, Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "KCX Social Office is the first co-working space in the Setia Alam with full back office facilities support. Located within 5min drive from Setia City Mall and Setia City Convention Centre. It is a brand new commercial area within the award wining best master-plan township.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/03/kcx-logo-200x200.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/03/cover-705x705.jpg",
+        "name": "KCX Social Office",
+        "site": "https://www.fb.com/kcxso?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 48,
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "map": {
+          "address": "WORQ Petaling Jaya Federal Territory of Kuala Lumpur Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "A 13000 sq ft of vibrant, inspiring, cozy and convenient space for anyone to work at our flexible hot desks, fixed desk or cozy private suites. It's located right next to the TTDI MRT station and for those who prefer driving, there are ample parking available.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2017/05/worq-200x67.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2017/05/lounge1-705x504.jpg",
+        "name": "WORQ Coworking Space – TTDI",
+        "site": "https://worq.space/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 49,
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "map": {
+          "address": "WORQ Subang, Jalan Pengaturcara U1/51a, Seksyen U1, Shah Alam, Selangor, Malaysia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "A 22500 sq ft of vibrant, inspiring, cozy and convenient space for anyone to work at our flexible hot desks, fixed desk or cozy private suites. It's located right next to the Subang LRT and KTM station and for those who prefer driving, there are ample parking available.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/11/White-on-Black-coworking-space-200x128.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/11/Subang-WORQ-sign-705x470.jpg",
+        "name": "WORQ Coworking Space – Subang",
+        "site": "https://worq.space/coworking-space/subang/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 50,
+        "country": "Indonesia",
+        "city": "Makassar",
+        "map": {
+          "address": "Jl. Mapala No.24, Tidung, Rappocini, Kota Makassar, Sulawesi Selatan 90222, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Kemae - Creative Hub merupakan collaborative working space (coworking space), sebuah ruang kerja bersama yang dapat kita manfaatkan untuk bekerja dengan sistem membership harian, mingguan, bulanan hingga tahunan.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/05/logo-kemae-200x200.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/05/WhatsApp-Image-2018-07-09-at-11.56.58-1-705x529.jpeg",
+        "name": "Kémae – Creative Hub",
+        "site": "http://coworking-makassar.business.site/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 51,
+        "country": "Indonesia",
+        "city": "Makassar",
+        "map": {
+          "address": " Jl. Dr. Sam Ratulangi, Mamajang, Kota Makassar, Sulawesi Selatan, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Coworking space, Startup Room, Class Room, Workshop Room, Meeting Room, Internet 10MB. All facilities Free.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2015/10/1013637_626505994144183_2304282860232400714_n-200x200.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2015/10/11064916_698230803638368_1696984180211487157_o-705x261.jpg",
+        "name": "Makassar Digital Lounge",
+        "site": "http://makassar.dilo.id/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 52,
+        "country": "Indonesia",
+        "city": "Tenggara",
+        "map": {
+          "address": " Jl. Dr. Sam Ratulangi, Mamajang, Kota Makassar, Sulawesi Selatan, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Salon de nomad Gili T. is first co-working space in Gili Trawangan. We are already running our first 'salon de nomad' in Korea and open our second space in Gili T.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/05/DSC06511-e1526542222996-200x149.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/05/%E1%84%89%E1%85%A1%E1%86%AF%E1%84%85%E1%85%A9%E1%86%BC-%E1%84%8F%E1%85%B3%E1%84%80%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%80%E1%85%A6-705x290.jpg",
+        "name": "salon de nomad Gili T.",
+        "site": "https://www.facebook.com/salondenomad.gili/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 53,
+        "country": "Indonesia",
+        "city": "Ubud",
+        "map": {
+          "address": " Outpost, Jalan Raya Singakerta, MAS, Ubud, Bali, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Outpost provides what you need to be productive: comfy office chairs, redundant internet, vibrant community of professionals living the dream. With a masseuse on staff, yoga and two pools to dip into, we are more than just work. Come be a part of our vibrant community.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2016/01/Outpost_Logo_Box-200x200.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2016/01/2241284-Bali-Spirit-Hotel-amp-Spa-Area-Attractions-2-RTS-705x470.jpg",
+        "name": "Outpost",
+        "site": "http://www.outpost-asia.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 54,
+        "country": "Indonesia",
+        "city": "Ubud",
+        "map": {
+          "address": "Jalan Made Lebah No.12, Peliatan, Gianyar, Bali, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "To this newly opened coworking space, scientists come for sabbaticals, students come to learn remotely, entrepreneurs and digital nomads come to work and socialize. The space has one main coworking area on first floor with desks and chairs, a small library and several cozy reading corners.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2018/04/icon-e1523091351791-200x207.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2018/04/Coworking-Openness-705x397.jpeg",
+        "name": "IGDORE Indonesia",
+        "site": "https://igdore.org/coworking-space/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 55,
+        "country": "Indonesia",
+        "city": "Bali",
+        "map": {
+          "address": "Jl. Bumi Ayu Gg. Pungut Sari No.6, Sanur, Denpasar Sel., Kota Denpasar, Bali 80228, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "A Bali based coworking hub and international service provider for tech startups. Livit Hub is much more than a shared office: it’s a dynamic, innovative place created for motivated people to come together to create, build and develop amazing businesses, while keeping a healthy work & play balance.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2019/03/livit-hub-logo-1920-x1080-1-200x174.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2019/03/resize1-1-705x477.jpg",
+        "name": "Livit Hub Bali",
+        "site": "https://liv.it/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 56,
+        "country": "Indonesia",
+        "city": "Bali",
+        "map": {
+          "address": "Jalan Danau Poso No.38, Denpasar Selatan, Kota Denpasar, Bali, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Kumpul coworking space is located within Rumah Sanur - a creative hub in Sanur, Bali that works to grow social entrepreneurship.Kumpul has a relaxed atmosphere with all the facilities of a modern office and a collaborative environment where members can be productive while engaging with a thriving and dynamic community.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2015/09/Logo-Kumpul-coworking-space1-200x79.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2015/09/IMG_6188-1024x683-705x470.jpg",
+        "name": "Kumpul Coworking Space",
+        "site": "http://www.kumpul.co/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 57,
+        "country": "Indonesia",
+        "city": "Bali",
+        "map": {
+          "address": "Jl. Kusuma Sari, Denpasar Sel., Kota Denpasar, Bali, Indonesien",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Genius Café is a series of coworking cafes, where entrepreneurship, healthy lifestyle, education, wellbeing and care for the environment meetup. We are home for the new generation of entrepreneurs: those who take their businesses on the move, remotely or on a global scale, seek to constantly grow and want to strike a perfect work-life balance",
+        "logo": "NO-LOGO",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2017/09/Genius-Caf%C3%A9-Sanur-705x411.jpg",
+        "name": "Genius Café Sanur",
+        "site": "http://geniuscafebali.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 58,
+        "country": "Indonesia",
+        "city": "Bali",
+        "map": {
+          "address": "ESTUBIZI Coworking Space, Jalan Wolter Monginsidi, Rawa Barat, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "ESTUBIZI Coworking Space is one of the most creative coworking in Jakarta.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2016/05/ESTUBIZI_Printed-by-Subur-200x222.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2016/05/ESTUBIZI_Cover-Photo-705x529.png",
+        "name": "ESTUBIZI",
+        "site": "http://www.estubizi.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 59,
+        "country": "Indonesia",
+        "city": "Surabaya",
+        "map": {
+          "address": "Jl. Mayjend. Yono Soewoyo Kav. 3 Surabaya",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Forward Factory housed in West Surabaya, Spazio, not just a place of work for participants Start Surabaya to develop each, but they will also collaborate with the various communities and businesses as well as creative technology in Surabaya.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2015/06/logo-200x59.png",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2015/06/Forward-Factory-705x470.jpg",
+        "name": "Forward Factory",
+        "site": "http://www.startsurabaya.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
+    },
+    {
+        "ID": 60,
+        "country": "Thailand",
+        "city": "Pattaya",
+        "map": {
+          "address": "132 Thanon Chaiyaphruek, Na Kluea, Amphoe Bang Lamung, Province de Chonburi 20150, Thaïlande",
+          "lat": "51.5255905",
+          "lng": "-0.2549043999999867"
+        },
+        "description": "Anchor space is a unique 500m2 coworking area located in Jomtiem - South Pattaya - Thailand.It's a stimulating work environment with all facilities needed by freelancers, small companies or independants workers.",
+        "logo": "https://coworkingmap.org/wp-content/uploads/2014/02/Anchor-Coworking-Space-Pattaya-Jomtien-Thailand-Brick-walls-960x720-200x150.jpg",
+        "cover": "https://coworkingmap.org/wp-content/uploads/2014/02/IMG_6871-705x529.jpg",
+        "name": "Anchor Coworking Space",
+        "site": "http://anchorcoworking.com/?utm_source=coworkingmap.org&utm_medium=website&utm_campaign=Coworking%20Map"
     }
+
 
 ]	

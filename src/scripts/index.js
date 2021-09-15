@@ -17,14 +17,14 @@ const loadNomad = async () =>{
             );
             
         });
+        // if(searchValue.length === 0){
+        //  nomList =[];
+        // }
         displayList(filterSearch)
         
     });
 } catch (err){
     console.log(err)
-}
-if(searchValue.length === 0){
- nomList =[];
 }
 };
 
@@ -32,15 +32,21 @@ const displayList = (data) =>{
     let htmlString = data
     .map((data)=>{
         return ` 
-        <li class="locations" >
+        <li class="locations " >
+        <div class="hoverload">
+         <h2>${data.name}</h2>
+       <p> ${data.description}</p>
+       <p class="addr"> Address: ${data.map.address}</p>
+
+        </div>
         <div class="conta" style="background:rgba(255, 255, 255, 0.9) url(${data.cover}) no-repeat;">
-        <a href="${data.site}" target="_blank" rel="noopener noreferrer"> <img src="${data.logo}" alt="" /></a>
-        <h2>${data.name}</h2>
-        <h3>${data.city}</h3>   
-        <p>${data.country}</p>
+       <img src="${data.logo}" alt="" />
         </div>
         <div class="foot">
         <a href="${data.site}" target="_blank" rel="noopener noreferrer">Our Webpage</a>
+        <h2>${data.name}</h2>
+        <h3>${data.city},<span>${data.country}</span></h3>   
+        
         <ul id="contact">
         <li><i class="fab fa-facebook"></i></li>
         <li><i class="fab fa-linkedin"></i></li>
