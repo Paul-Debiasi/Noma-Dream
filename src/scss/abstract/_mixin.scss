@@ -1,0 +1,113 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin center($type) {
+  @if $type == flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } @else if $type == grid {
+    display: grid;
+    place-content: center;
+    gap: 20px;
+  } @else if $type == transform {
+    position: absolute;
+    transform: translate(50%, 50%);
+  }
+}
+
+@mixin hide($visual) {
+  @if $visual == opacity {
+    opacity: 0;
+  } @else if $visual == hidden {
+    visibility: hidden;
+  } @else if $visual == none {
+    display: none;
+  }
+}
+
+@mixin triangle($direction, $bg-color: red) {
+  @if $direction == up {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid $bg-color;
+  } @else if $direction == dow {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid $bg-color;
+  } @else if $direction == right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid $bg-color;
+  } @else if $direction == left {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid $bg-color;
+  }
+}
+
+@mixin fade-in {
+  animation: inf-fade infinite 5s;
+  @keyframes inf-fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
+
+$font-sizes: (
+  small: 14px,
+  medium: 20px,
+  large: 30px,
+  xl: 40px,
+  ultra: 60px,
+  outOfTheScree: 200px,
+);
+
+@mixin setFontSize($size) {
+  @if map-has-key($font-sizes, $size) {
+    font-size: map-get($font-sizes, $size);
+  } @else {
+    @error "this is not defined. You can use only #{$font-sizes} ";
+  }
+}

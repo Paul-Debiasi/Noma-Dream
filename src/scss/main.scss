@@ -1,2 +1,143 @@
 // This is where you can import other stylesheets or write your scss code
+@import "./abstract/mixin";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  nav {
+    position: fixed;
+    top: 0;
+    .navbar-brand {
+      font-family: "Nanum Pen Script", sans-serif;
+      font-size: 45px;
+      margin: 0px;
+    }
+    a {
+      font-size: 22px;
+      margin: 0 10px;
+      font-family: "Work Sans", sans-serif;
+    }
+  }
+  main {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    @include center(flex);
+    #nom_list {
+      margin-top: 150px;
+      display: grid;
+      gap: 42px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 450px;
+      // grid-auto-rows: 250px;
+      width: 90%;
+      height: 2000vw;
+      list-style: none;
+      @include respond(tab-land) {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 150px;
+        gap: 32px;
+      }
+
+      @include respond(tab-port) {
+        grid-template-columns: 500px;
+        margin-top: 150px;
+        place-content: inherit;
+        li {
+          justify-self: center;
+        }
+      }
+
+      @include respond(phone) {
+        grid-template-columns: 1fr;
+      }
+      .locations {
+        background: rgba(255, 255, 255, 0.5);
+        border: none;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 32px;
+        border-radius: 24px;
+        padding: 16px;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+          rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+          rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        .conta {
+          text-shadow: white 1px 1px;
+          margin-top: 10px;
+          height: 50%;
+        }
+        img {
+          width: 80px;
+          height: 80px;
+          object-fit: cover;
+        }
+        .foot {
+          color: black;
+          font-size: 22px;
+          height: 50%;
+          position: relative;
+
+          a:hover {
+            text-decoration: underline;
+            color: rgb(255, 27, 38);
+          }
+
+          #contact {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            position: absolute;
+            bottom: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 7vh;
+    background: rgba(52, 58, 64);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+
+    div {
+      width: 50%;
+      color: white;
+      @include center(grid);
+      h4:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      list-style: none;
+      width: 50%;
+    }
+    .fab {
+      font-size: 24px;
+      color: white;
+    }
+  }
+}
