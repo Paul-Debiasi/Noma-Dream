@@ -1,4 +1,4 @@
-# DCI Boilerplate I: Sass + bootstrap
+# Sass + bootstrap
 
 An HTML CSS boilerplate with built-in sass support:
 
