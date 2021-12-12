@@ -159,3 +159,7 @@ This folder will contain your built project, ready to be deployed online. It is 
 Boilerplate created by Itamar Givon ([@itamargiv](https://github.com/itamargiv))
 
 Edited by Fran Borg ([@FranBte](https://github.com/FranBte))
+
+## Final Result
+
+![Over view of the project](src/images/project.png)
